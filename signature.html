@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #signature-box {
+        border: 2px solid #000;
+        width: 300px;
+        height: 300px;
+      }
+
+      canvas {
+        border: 2px solid #000;
+        cursor: crosshair;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sign in the Box</h1>
+    <div id="signature-box">
+      <canvas id="signature-canvas" width="300" height="300"></canvas>
+    </div>
+    <button id="clear-button">Clear</button>
+    <button id="download-button">Download Signature</button>
+
+    <script src="signature.js"></script>
+  </body>
+</html>
